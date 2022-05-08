@@ -1,8 +1,8 @@
 # Fruits Warehouse
 
-## [Live Link](linkhere)
+## [Live Link](https://wire-house-9427b.web.app/)
 
-Live Link: [linkhere](linkhere)
+Live Link: [https://wire-house-9427b.web.app/](https://wire-house-9427b.web.app/)
 
 ### `Website Introduction`
 
@@ -18,4 +18,4 @@ Live Link: [linkhere](linkhere)
 4. Many components create and fetch data and create backend api.....then ,
 5. server site heroku deploy and client side firebase deploy my website ....... and
 
-`Finally Assignment Done`
+`Alhamdulillah, Finally Assignment Done`
