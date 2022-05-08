@@ -11,7 +11,7 @@ const MyItems = () => {
     useEffect(() => {
         const getItems = async () => {
             const email = user.email;
-            const url = `http://localhost:5000/myItems?email=${email}`;
+            const url = `https://ancient-oasis-24969.herokuapp.com/myItems?email=${email}`;
             try {
                 const { data } = await axiosPrivate.get(url);
                 setMyItems(data);
@@ -27,7 +27,7 @@ const MyItems = () => {
     const handleItemDelete = id => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            const url = `http://localhost:5000/myItems/${id}`;
+            const url = `https://ancient-oasis-24969.herokuapp.com/myItems/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

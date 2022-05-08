@@ -19,7 +19,7 @@ const MyItem = ({ myItem, handleItemDelete }) => {
                         <p><span className='fw-bold'>Quantity/In-Stock:</span> <span className='text-danger fw-bold'> {quantity} KG</span></p>
                         <p><span className='fw-bold'>SupplierName:</span> {supplierName}</p>
                     </Card.Body>
-                    <button onClick={() => handleItemDelete(_id)} className='border-0 btn-dark p-2'>Delete</button>
+                    <button onClick={() => handleItemDelete(_id)} className='border-0 btn-danger p-2'>Delete</button>
                 </Card>
             </CardGroup>
         </div >

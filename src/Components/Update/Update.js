@@ -9,7 +9,7 @@ const Update = () => {
     const [Items, setItems] = useState({});
 
     useEffect(() => {
-        const url = `http://localhost:5000/inventory/${inventoryId}`;
+        const url = `https://ancient-oasis-24969.herokuapp.com/inventory/${inventoryId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setItems(data));
@@ -21,7 +21,7 @@ const Update = () => {
         const quantity = parseInt(e.target.quantity.value) + parseInt(Items.quantity)
         const updateFruits = { quantity }
 
-        const url = `http://localhost:5000/inventory/${inventoryId}`;
+        const url = `https://ancient-oasis-24969.herokuapp.com/inventory/${inventoryId}`;
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -40,7 +40,7 @@ const Update = () => {
     const handleDeliver = id => {
         const quantityUpdate = Items?.quantity
         const updateQuantity = { quantityUpdate }
-        fetch(`http://localhost:5000/items/deliver/${id}`, {
+        fetch(`https://ancient-oasis-24969.herokuapp.com/items/deliver/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -83,7 +83,7 @@ const Update = () => {
                             Items.quantity === 0 ?
                                 <button className='btn-danger border-0 text-white p-2'>sold out</button>
                                 :
-                                <button onClick={() => handleDeliver(inventoryId)} className='border-0 p-2 btn-dark'>Delivered</button>
+                                <button onClick={() => handleDeliver(inventoryId)} className='border-0 p-2 btn-primary'>Delivered</button>
                         }
 
 

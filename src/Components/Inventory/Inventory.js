@@ -6,7 +6,7 @@ import './Inventory.css'
 const Inventory = () => {
     const [Items, setItems] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/inventory')
+        fetch('https://ancient-oasis-24969.herokuapp.com/inventory')
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])
@@ -14,7 +14,7 @@ const Inventory = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure baby?');
         if (proceed) {
-            const url = `http://localhost:5000/inventory/${id}`;
+            const url = `https://ancient-oasis-24969.herokuapp.com/inventory/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -28,7 +28,7 @@ const Inventory = () => {
     return (
         <div className='container'>
             <div className='in-margin container'>
-                <h2 className='text-center text-success'>Inventory Items</h2>
+                <h2 className='text-center text-danger'>Inventory Items</h2>
                 <div className='grid mt-5'>
                     {
                         Items.map(item => <InItems

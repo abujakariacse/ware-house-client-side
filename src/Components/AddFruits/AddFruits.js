@@ -26,7 +26,7 @@ const AddFruits = () => {
 
         const addFruits = { img, name, price, quantity, supplierName, description, email };
 
-        fetch('http://localhost:5000/myItems', {
+        fetch('https://ancient-oasis-24969.herokuapp.com/myItems', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

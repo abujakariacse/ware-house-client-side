@@ -17,7 +17,7 @@ const Menubar = () => {
                 <div className="container-fluid">
                     <div className='navbar-margin d-flex justify-content-center align-items-center'>
                         <img src={logo} alt="" />
-                        <p className='fw-bold font-size'>Ware<span className='text-success'>House</span></p>
+                        <p className='fw-bold font-size'>Ware<span className='text-danger'>House</span></p>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
