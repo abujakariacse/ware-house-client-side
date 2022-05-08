@@ -97,7 +97,7 @@ const Update = () => {
                     <form onSubmit={handleFruitsUpdate} className='d-flex flex-column'>
                         <label className='fw-bold' htmlFor="quantity">Stock*</label>
                         <input type="number" name="quantity" id="" required /> <br />
-                        <input className='border-0 btn-dark' type="submit" value="increase" />
+                        <input className='border-0 btn-primary' type="submit" value="increase" />
                     </form>
                 </div>
             </div >

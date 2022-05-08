@@ -31,11 +31,9 @@ li{
     padding: 5px 20px;
     border: none;
     color: white !important;
+    border-radius: 5px;
 }
 
-.login-btn:hover{
-    background-color: #059e05;
-}
 
 @media screen and (max-width: 600px) {
     li{

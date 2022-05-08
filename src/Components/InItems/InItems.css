@@ -2,9 +2,14 @@
     background-color: white;
 }
 
-.all-btn{
-    /* background-color: #0ec22ce5; */
-    background-color: black;
+.update-btn{
+    background-color: #008000d6;
+    color: white;
+    padding: 5px 50px;
+    
+}
+.delete-btn{
+    background-color: #ff0000d4;
     color: white;
     padding: 5px 50px;
 }

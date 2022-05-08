@@ -24,8 +24,8 @@ const InItems = ({ item, handleDelete }) => {
                         <p><span className='fw-bold'>SupplierName:</span> {supplierName}</p>
                     </Card.Body>
                     <div className='d-flex justify-content-between card-footer'>
-                        <button onClick={() => handleDetails(_id)} className='border-0 btn-dark all-btn'>Update</button>
-                        <button onClick={() => handleDelete(_id)} className='border-0 btn-dark all-btn'>Delete</button>
+                        <button onClick={() => handleDetails(_id)} className='border-0 btn-primary update-btn rounded'>Update</button>
+                        <button onClick={() => handleDelete(_id)} className='border-0 btn-danger delete-btn rounded'>Delete</button>
                     </div>
                 </Card>
             </CardGroup>
