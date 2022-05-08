@@ -3,6 +3,10 @@ li{
     list-style: none;
 }
 
+.logo{
+    width:60px;
+    height:56px;
+}
 .navbar-margin{
     margin-left: 60px;
 }

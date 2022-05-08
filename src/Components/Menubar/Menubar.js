@@ -1,7 +1,7 @@
 import React from 'react';
 import './Menubar.css'
 import CustomLink from '../CustomLink/CustomLink';
-import logo from '../../Images/Grocery-Logo.jpg'
+import logo from '../../Images/Grocery-Logo.png';
 import auth from '../../firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';
@@ -16,7 +16,7 @@ const Menubar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg fixed-top shadow">
                 <div className="container-fluid">
                     <div className='navbar-margin d-flex justify-content-center align-items-center'>
-                        <img src={logo} alt="" />
+                        <img className="logo" src={logo} alt="" />
                         <p className='fw-bold font-size'>Ware<span className='text-danger'>House</span></p>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
