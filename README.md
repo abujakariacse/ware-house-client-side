@@ -1,8 +1,8 @@
 # Fruits Warehouse
 
-## [Live Link](https://assignment-11-5b872.web.app/)
+## [Live Link](linkhere)
 
-Live Link: [https://assignment-11-5b872.web.app/](https://assignment-11-5b872.web.app/)
+Live Link: [linkhere](linkhere)
 
 ### `Website Introduction`
 
