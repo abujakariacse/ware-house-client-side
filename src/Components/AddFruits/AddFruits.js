@@ -42,12 +42,12 @@ const AddFruits = () => {
     }
     return (
         <div className='mb-5'>
-            <h3 className=' text-danger margin-text text-center'>Please!! Add a New Fruits Items</h3>
+            <h3 className=' text-danger margin-text text-center'>Add a New Fruits Items</h3>
             <div className=' d-flex fruits justify-content-center'>
                 <form onSubmit={handleAddFruits} className='fruits-container mt-3 p-3 shadow'>
                     <div className='d-flex justify-content-center flex-column line mt-4'>
                         <label className='fw-bold' htmlFor="email">UserEmail*</label><br />
-                        <input className='fw-bold text-secondary' type="email" value={user.email} name="email" id="1" required readOnly />
+                        <input className='fw-bold text-secondary border-0' type="email" value={user.email} name="email" id="1" required readOnly />
                     </div>
                     <div className='d-flex justify-content-center flex-column line mt-4'>
                         <label className='fw-bold' htmlFor="img">Image URL*</label><br />

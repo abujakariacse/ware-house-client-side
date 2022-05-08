@@ -4,6 +4,7 @@ import Carousel from '../Carousel/Carousel';
 import CustomLink from '../CustomLink/CustomLink';
 import InItems from '../InItems/InItems';
 import Extra1 from '../Extra1/Extra1';
+import Review from '../Review/Review';
 
 const Home = () => {
     const [Items] = useItems()
@@ -29,6 +30,9 @@ const Home = () => {
                 <div className='d-flex justify-content-center mt-2 bottom mb-5'>
                     <CustomLink to="/inventory" className="login-btn p-2 rounded">Show All Items</CustomLink>
                 </div>
+            </div>
+            <div>
+                <Review></Review>
             </div>
         </div>
     );
