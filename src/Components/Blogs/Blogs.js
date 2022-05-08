@@ -10,7 +10,7 @@ const Blogs = () => {
             <div className='container mt-5'>
                 <h4>1. Difference between JavaScript and Nodejs .?</h4>
                 <div className='row mt-5'>
-                    <div className='col-lg-6 '>
+                    <div className='col-lg-6 shadow p-3 mb-5 bg-white rounded'>
                         <h5 className='text-center'>JavaScript</h5>
                         <p>1. Javascript is a programming language that is used for writing scripts on the website. </p>
                         <p>2. Javascript can only be run in the browsers.</p>
