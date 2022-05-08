@@ -1,0 +1,23 @@
+.update{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.update-container{
+    width: 340px;
+    height: 700px;
+}
+
+.line{
+    line-height: 10px;
+}
+
+@media screen and (max-width:600px){
+    .update{
+        margin-top: 25%;
+    }
+}

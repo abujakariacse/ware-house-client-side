@@ -1,0 +1,23 @@
+.fruits-container{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.fruits{
+    height: 100vh;
+}
+
+.margin-text{
+    margin-top: 10%;
+}
+
+@media screen  and (max-width: 600px){
+    .margin-text{
+        margin-top: 30%;
+    }
+
+    .fruits{
+        height: 70vh;
+    }
+}

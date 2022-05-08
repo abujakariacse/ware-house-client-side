@@ -1,0 +1,10 @@
+.white{
+    background-color: white;
+}
+
+.all-btn{
+    /* background-color: #0ec22ce5; */
+    background-color: black;
+    color: white;
+    padding: 5px 50px;
+}

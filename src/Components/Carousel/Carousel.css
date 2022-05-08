@@ -1,0 +1,36 @@
+.banner1{
+    margin-left: 150px;
+}
+
+.banner2{
+    margin-left: 60px;
+}
+
+.carousel-font{
+    font-size: 60px;
+}
+
+.font-color{
+    color:#059e05;
+}
+
+section{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px){
+    .carousel-back{
+        flex-direction: column-reverse;
+    }
+
+    .col-lg-5{
+        margin-top: 30px;
+    }
+
+    .banner1{
+        margin-left: 0px;
+    }
+    .banner2{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,9 @@
+.jwt{
+    margin-top: 8%;
+}
+
+@media screen and (max-width: 600px) {
+    .jwt{
+       margin-top: 30%;
+    }
+}
