@@ -40,7 +40,7 @@ const MyItems = () => {
     }
     return (
         <div className='inn-margin container'>
-            <h2 className='text-center text-success'>My Items</h2>
+            <h2 className='text-center text-primary'>My Items</h2>
             <div className='grid mt-5'>
                 {
                     myItems.map(myItem => <MyItem

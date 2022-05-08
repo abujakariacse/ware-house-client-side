@@ -3,6 +3,7 @@ import useItems from '../../Hooks/useItems';
 import Carousel from '../Carousel/Carousel';
 import CustomLink from '../CustomLink/CustomLink';
 import InItems from '../InItems/InItems';
+import Extra1 from '../Extra1/Extra1';
 
 const Home = () => {
     const [Items] = useItems()
@@ -10,6 +11,10 @@ const Home = () => {
         <div>
             <div>
                 <Carousel></Carousel>
+            </div>
+            <div>
+                <h2 className="text-center">Collections:</h2>
+                <Extra1></Extra1>
             </div>
             <div className='mt-5'>
                 <h2 className='text-center text-success'>Inventory Items</h2>

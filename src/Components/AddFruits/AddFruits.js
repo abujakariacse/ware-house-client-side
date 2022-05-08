@@ -42,7 +42,7 @@ const AddFruits = () => {
     }
     return (
         <div className='mb-5'>
-            <h3 className=' text-success margin-text text-center'>Please!! Add a New Fruits Items</h3>
+            <h3 className=' text-danger margin-text text-center'>Please!! Add a New Fruits Items</h3>
             <div className=' d-flex fruits justify-content-center'>
                 <form onSubmit={handleAddFruits} className='fruits-container mt-3 p-3 shadow'>
                     <div className='d-flex justify-content-center flex-column line mt-4'>

@@ -5,7 +5,7 @@ const Blogs = () => {
     return (
         <div className='mb-5'>
             <div className='jwt'>
-                <h2 className='text-center mt-5 text-success'>Question and Answer</h2>
+                <h2 className='text-center mt-5 text-danger'>Question and Answer</h2>
             </div>
             <div className='container mt-5'>
                 <h4>1. Difference between JavaScript and Nodejs .?</h4>
